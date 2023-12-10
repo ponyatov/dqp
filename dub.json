@@ -1,0 +1,9 @@
+{
+    "name":          "qdp",
+    "description":   "Quantum Leaps HSM implementation in D lang",
+    "authors":      ["Dmitry Ponyatov <dponyatov@gmail.com>"],
+    "copyright":     "Copyright © 2023, Dmitry Ponyatov <dponyatov@gmail.com>",
+    "license":       "MIT",
+    "homepage":      "https://github.com/ponyatov/dqp",
+    "dependencies": {}
+}
