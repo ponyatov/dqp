@@ -20,9 +20,12 @@ void main(string[] args) {
     router.get("/about/", staticTemplate!"about.dt");
     // 
     router.get("/favicon.ico", serveStaticFile("static/logo.png"));
+    router.get("/doc/", serveStaticFiles("doc/"));
     router.get("*", serveStaticFiles("static/"));
     // 
-    listenHTTP(settings, router);
+    auto listener = listenHTTP(settings, router);
+    scope (exit)
+        listener.stopListening();
     runApplication();
 }
 

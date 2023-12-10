@@ -1,5 +1,22 @@
 extends layout
 
 block body
-    h1 Example page - Home
-    p Hello, World!
+
+    h1 Quantum Leaps HSM
+
+    p demo state machine implemented in D/vibe
+
+    h2 books
+
+    p
+        a(href="/doc/BuildTimekeepWithVibe.pdf") BuildTimekeepWithVibe
+    p
+        a(href="/doc/BuildWebAppsinVibe.pdf") BuildWebAppsinVibe
+    p
+        a(href="/doc/Programming_in_D.pdf") Programming_in_D
+    p
+        a(href="/doc/yazyk_programmirovaniya_d.pdf") yazyk_programmirovaniya_d
+    p
+        a(href="/doc/PSiCC.pdf") old book
+    p
+        a(href="/doc/PSiCC2.pdf") new book
