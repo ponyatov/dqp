@@ -1,7 +1,6 @@
-#  `mops`
-##  Multihead Overlapping Projection System
-### a.k.a. Museum OPerating System
+#  `qdp`
+##  Quantum Leaps HSM implementation in D lang
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2023 MIT
 
-github: https://github.com/ponyatov/mops
+github: https://github.com/ponyatov/dqp

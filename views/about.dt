@@ -1,0 +1,13 @@
+extends layout
+
+block body
+
+    h1 `qdp`
+    h2 Quantum Leaps HSM implementation in D lang
+    p
+        (c) Dmitry Ponyatov
+        a(href="mailto:dponyatov@gmail.com") dponyatov@gmail.com
+        2023 MIT
+    p
+        pre github:
+        a https://github.com/ponyatov/dqp

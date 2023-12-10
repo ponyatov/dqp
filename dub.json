@@ -5,6 +5,8 @@
     "copyright":     "Copyright © 2023, Dmitry Ponyatov <dponyatov@gmail.com>",
     "license":       "MIT",
     "homepage":      "https://github.com/ponyatov/dqp",
+    "targetPath":    "bin",
+    "targetType":    "executable",
     "dependencies": {
         "vibe-d": "~>0.9"
     }
